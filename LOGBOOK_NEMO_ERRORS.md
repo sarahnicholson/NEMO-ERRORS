@@ -1,7 +1,7 @@
 LOGBOOK - NEMO ERRORS 
 =================================================================================================================
-
-
+GENERAL (ie. NOT CONFIGURATION SPECIFIC)
+========================================
 Time-stepping errors:
 ------------------------------------------------------------------------------------------------------------------
 
@@ -30,3 +30,15 @@ Error because of incorrect activatation of GM (Gent McWilliams Paramterization f
     Change operator from Bilaplacian to laplacian and diffusion from horizontal to iso-neutral.
 
 -----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+ JET CONFIGURATION:
+========================
+ 
+ **Northern Boundary Condition**
+ 
+ At the dx=100km we had issues with reaching steady state temperature. The issue was at the  northern boundary restoring, because at this coarse resolution the sponge layer needed to be widen to include more points. 2800- 2600.
+ 
+ ![title](NBrestoringerror.png?raw=true)
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
