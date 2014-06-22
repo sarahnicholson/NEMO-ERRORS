@@ -5,7 +5,7 @@ LOGBOOK - NEMO ERRORS
 Time-stepping errors:
 ------------------------------------------------------------------------------------------------------------------
 
-![title](file://localhost/Users/sarahnicholson/Dropbox/BYWORD_DOCUMENTS/timesteperror1.png)
+![time_stepp_err](timesteperror1.png?raw=true)
 
 **Solution:**  
 
