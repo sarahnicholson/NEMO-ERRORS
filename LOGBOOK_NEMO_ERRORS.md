@@ -11,7 +11,7 @@ Time-stepping errors:
 
     the time step needs to be divisible by the number of seconds in a day (86400), Example: I was using 3000 but  86400/3000=28.8 so I should be 3200 -> 86400/3200 = 27
 
-![title](file://localhost/Users/sarahnicholson/Dropbox/BYWORD_DOCUMENTS/timesteperror2.png)
+![title](timesteperror2.png?raw=true)
 
 **Solution:**
 
@@ -21,7 +21,7 @@ Time-stepping errors:
 Lateral diffusion errors:
 -------------------------------------------------------------------------------------------------------------------
 
-![title](file://localhost/Users/sarahnicholson/Dropbox/BYWORD_DOCUMENTS/latdiffuseerror.png)
+![title](latdiffuseerror.png?raw=true)
 
 Error because of incorrect activatation of GM (Gent McWilliams Paramterization for eddies) - defined cpp keys ldfeiv and ldfslp set rn_aeiv _0=500.
 
